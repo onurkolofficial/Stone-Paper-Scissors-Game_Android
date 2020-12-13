@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.GameModeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/game_mode_text"
+            android:textAlignment="center"
+            android:textSize="@dimen/_24sdp" />
+        <!-- ADS !-->
+        <com.startapp.sdk.ads.banner.Banner
+            android:id="@+id/startAppBanner2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0">
+            <TextView
+                android:id="@+id/gameSinglePlayer"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_75sdp"
+                android:background="@drawable/buttons"
+                android:paddingTop="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/gamemode_single_player"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="@dimen/_12sdp"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/gameTwoPlayer"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_75sdp"
+                android:background="@drawable/buttons"
+                android:paddingTop="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:text="@string/gamemode_2_player"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/allerta_stencil"
+                android:textSize="@dimen/_12sdp"
+                android:focusable="true" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:background="@drawable/buttons"
+            android:paddingTop="@dimen/_30sdp"
+            android:text="@string/back_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/allerta_stencil"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:focusable="true" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

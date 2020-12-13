@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stone Paper Scissors Game</string>
+    <string name="welcome_user_text">Welcome,</string>
+    <string name="user_text">User</string>
+    <string name="player_text">Player</string>
+    <string name="start_game_text">Start Game</string>
+    <string name="info_text">Info</string>
+    <string name="signout_text">Sign-out</string>
+    <string name="signin_text">Sign-in</string>
+    <string name="exit_game_text">Exit Game</string>
+    <string name="settings_text">Settings</string>
+    <string name="back_text">Back</string>
+    <string name="setting_bg_music">Background Music</string>
+    <string name="setting_sound_effects">Sound Effects</string>
+    <string name="setting_vibration">Vibration</string>
+    <string name="game_mode_text">Game Mode</string>
+    <string name="gamemode_single_player">Single Player</string>
+    <string name="gamemode_2_player">2 Player</string>
+    <string name="scoreboard_text">Score Board</string>
+    <string name="saved_game_text">Saved Game.</string>
+    <string name="load_game_data_text">Loaded Game Data.</string>
+    <string name="save_load_text">Save / Load</string>
+    <string name="loading_data_text">Loading Data...</string>
+    <string name="save_list_text">Save List</string>
+    <string name="menu_text">Menu</string>
+    <string name="computer_name">Computer</string>
+    <string name="player_2_name">Player 2</string>
+    <string name="please_wait_text">Please Wait...</string>
+    <string name="unknown_error_text">Unknown Error! Please try again.</string>
+    <string name="item_iron">Iron</string>
+    <string name="not_enought_money">Money not enought.</string>
+    <string name="success_buy_text">Success buy.</string>
+    <string name="achievements_text">Achievements</string>
+    <string name="info_whats_game_title">Whats This Game?</string>
+    <string name="info_whats_game_summary">This game is a classic rock paper scissors game. There are 2 game modes, one against the computer and \'2 Player\' in the game.</string>
+    <string name="info_single_mode_summary">We have 3 classic options in this mode and the game is play against the computer. The player by choosing one of these options, will trying to beat the computer and collect points.</string>
+    <string name="info_2player_mode_summary">In this mode, 2 players will try to win by choosing their options at the bottom and top of the screen.</string>
+    <string name="info_developer_title">Developer Info</string>
+    <string name="info_developer_summary">This game created by Onur Kol. See below for detailed information.</string>
+    <string name="info_game_title">Game Info</string>
+    <string name="game_version_text">Version :</string>
+    <string name="info_developer_contact_title">Developer Contact</string>
+    <string name="info_developer_contact_summary">You can reach the developer by clicking the links below.</string>
+    <string name="web_page_text">Web Page</string>
+</resources>

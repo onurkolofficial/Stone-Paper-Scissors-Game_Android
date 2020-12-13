@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+     Game Store Data
+     item name
+     item id to 'game_items.xml'
+     item count
+     item money
+    !-->
+    <string-array name="item_name">
+        <item>@string/item_iron</item>
+        <item>@string/item_iron</item>
+        <item>@string/item_iron</item>
+    </string-array>
+
+    <integer-array name="item_id">
+        <item>@integer/ITEM_IRON</item>
+        <item>@integer/ITEM_IRON</item>
+        <item>@integer/ITEM_IRON</item>
+    </integer-array>
+
+    <integer-array name="item_count">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </integer-array>
+
+    <integer-array name="item_money">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+    </integer-array>
+</resources>

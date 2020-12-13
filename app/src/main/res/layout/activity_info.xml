@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.StoreActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- ADS !-->
+            <com.startapp.sdk.ads.banner.Banner
+                android:id="@+id/startAppBanner1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:text="@string/info_whats_game_title" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/info_whats_game_summary" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_20sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:text="@string/gamemode_single_player" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:text="@string/info_single_mode_summary"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_20sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:text="@string/gamemode_2_player" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:text="@string/info_2player_mode_summary"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_20sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:text="@string/info_developer_title"
+                    android:textSize="@dimen/_20sdp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:text="@string/info_developer_summary"
+                    android:textSize="@dimen/_15sdp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_20sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:text="@string/info_game_title"
+                    android:textSize="@dimen/_20sdp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/game_version_text" />
+                <TextView
+                    android:id="@+id/gameVersion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="GAME_VERSION" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_20sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:text="@string/info_developer_contact_title" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="@string/info_developer_contact_summary" />
+
+                <Button
+                    android:id="@+id/githubButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Github"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:icon="@drawable/github_32"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"/>
+                <Button
+                    android:id="@+id/webButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/web_page_text"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:icon="@drawable/web_32"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"/>
+                <Button
+                    android:id="@+id/twitterButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Twitter"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:icon="@drawable/twitter_32"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"/>
+                <Button
+                    android:id="@+id/instaButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Instagram"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:icon="@drawable/instagram_32"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"/>
+                <Button
+                    android:id="@+id/facebookButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Facebook"
+                    app:iconTint="@android:color/transparent"
+                    app:iconTintMode="add"
+                    app:icon="@drawable/facebook_32"
+                    app:iconGravity="textStart"
+                    app:iconPadding="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:background="@drawable/buttons"
+            android:paddingTop="@dimen/_30sdp"
+            android:text="@string/back_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/allerta_stencil"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:focusable="true" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SettingsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/allerta_stencil"
+        android:textSize="@dimen/_24sdp"
+        android:layout_weight="0.2"
+        android:textAlignment="center"
+        android:text="@string/settings_text" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/settingBgMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:text="@string/setting_bg_music" />
+                <ImageView
+                    android:id="@+id/settingBgMusic_Checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/checkbox" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingSoundEffect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:text="@string/setting_sound_effects" />
+                <ImageView
+                    android:id="@+id/settingSoundEffect_Checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/checkbox" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/settingVibration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta_stencil"
+                    android:textSize="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:text="@string/setting_vibration" />
+                <ImageView
+                    android:id="@+id/settingVibration_Checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/checkbox" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.4">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:background="@drawable/buttons"
+            android:paddingTop="@dimen/_30sdp"
+            android:text="@string/back_text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/allerta_stencil"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:focusable="true" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

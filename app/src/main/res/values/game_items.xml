@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+     Game Items Data
+     If new item add, set item action to 'SinglePlayerGame.java' and add item button in 'activity_single_player.xml'.
+     For item icons to new drawable '32x32'.
+    !-->
+    <integer name="ITEM_STONE">10000</integer>
+    <integer name="ITEM_PAPER">10001</integer>
+    <integer name="ITEM_SCISSORS">10002</integer>
+    <integer name="ITEM_IRON">10003</integer>
+</resources>

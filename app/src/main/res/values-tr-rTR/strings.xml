@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taş Kağıt Makas Oyunu</string>
+    <string name="welcome_user_text">Hoş geldin,</string>
+    <string name="user_text">Kullanıcı</string>
+    <string name="player_text">Oyuncu</string>
+    <string name="start_game_text">Oyuna Başla</string>
+    <string name="info_text">Bilgi</string>
+    <string name="exit_game_text">Oyundan Çık</string>
+    <string name="settings_text">Ayarlar</string>
+    <string name="signin_text">Giriş Yap</string>
+    <string name="signout_text">Çıkış Yap</string>
+    <string name="back_text">Geri</string>
+    <string name="setting_bg_music">Arkaplan Müziği</string>
+    <string name="setting_sound_effects">Ses Efektleri</string>
+    <string name="setting_vibration">Titreşim</string>
+    <string name="game_mode_text">Oyun Modu</string>
+    <string name="gamemode_single_player">Tek Oyuncu</string>
+    <string name="gamemode_2_player">2 Oyuncu</string>
+    <string name="scoreboard_text">Puan Tablosu</string>
+    <string name="saved_game_text">Oyun Kaydedildi.</string>
+    <string name="load_game_data_text">Oyun Verileri Yüklendi.</string>
+    <string name="save_load_text">Kaydet / Yükle</string>
+    <string name="loading_data_text">Veriler Yükleniyor...</string>
+    <string name="save_list_text">Kayıt Listesi</string>
+    <string name="menu_text">Menü</string>
+    <string name="computer_name">Bilgisayar</string>
+    <string name="player_2_name">Oyuncu 2</string>
+    <string name="please_wait_text">Lütfen Bekleyin...</string>
+    <string name="unknown_error_text">Bilinmeyen Hata! Lütfen tekrar deneyin.</string>
+    <string name="item_iron">Demir</string>
+    <string name="not_enought_money">Para yeterli değil.</string>
+    <string name="success_buy_text">Success buy.</string>
+    <string name="achievements_text">Başarılar</string>
+    <string name="info_whats_game_title">Bu Oyun Nedir?</string>
+    <string name="info_whats_game_summary">Bu oyun klasik bir taş kağıt makas oyunudur. Oyunda bilgisayara karşı tek ve \'2 Oyuncu\' olmak üzere 2 oyun modu vardır.</string>
+    <string name="info_single_mode_summary">Bu modda klasik 3 seçeneğimiz var ve oyun bilgisayara karşı oynanıyor. Oyuncu, bu seçeneklerden birini seçerek bilgisayarı yenmeye ve puan toplamaya çalışacak.</string>
+    <string name="info_2player_mode_summary">Bu modda 2 oyuncu, ekranın alt ve üstündeki seçenekleri seçerek kazanmaya çalışacaklar.</string>
+    <string name="info_developer_title">Geliştirici Bilgisi</string>
+    <string name="info_developer_summary">Bu oyun Onur Kol tarafından oluşturulmuştur. Detaylı bilgi için aşağıya bakın.</string>
+    <string name="info_game_title">Oyun Bilgisi</string>
+    <string name="game_version_text">Sürüm :</string>
+    <string name="info_developer_contact_title">Geliştirici İletişimi</string>
+    <string name="info_developer_contact_summary">Geliştiriciye aşağıdaki linklere tıklayarak ulaşabilirsiniz.</string>
+    <string name="web_page_text">Web Sitesi</string>
+</resources>
