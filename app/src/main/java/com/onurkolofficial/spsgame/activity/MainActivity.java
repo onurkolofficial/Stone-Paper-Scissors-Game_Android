@@ -9,6 +9,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -250,6 +251,7 @@ public class MainActivity extends AppCompatActivity {
                         .setMessage(getString(R.string.unknown_error_text))
                         .setNeutralButton(android.R.string.ok, null)
                         .show();
+                Log.e("PlayGameSignin","Error: "+apiException.getStatus());
             }
             // Hide Loading Dialog
             if(loadingDialog.isShowing())

@@ -155,8 +155,6 @@ public class TwoPlayerGame {
         // Timer
         timer=new Timer();
         // Timer Task
-        // <BUG> <TESTED 3000 MS>
-        // If Game round end and player fast (3sec.) clicked button, timer task not running delay time. (Fast 3sec)
         task=new TimerTask(){
             @Override
             public void run() {
