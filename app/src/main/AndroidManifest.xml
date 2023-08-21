@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.onurkolofficial.spsgame">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StonePaperScissorsGame">
-        <activity android:name=".activity.InfoActivity"></activity>
+        <activity android:name=".activity.InfoActivity" />
 
         <meta-data
             android:name="com.google.android.gms.games.APP_ID"
@@ -22,31 +22,26 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".activity.StoreActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activity.StoreActivity" />
         <activity
-            android:name=".activity.TwoPlayerActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activity.TwoPlayerActivity" />
         <activity
-            android:name=".activity.SinglePlayerActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activity.SinglePlayerActivity" />
         <activity
             android:name=".activity.LoadingActivity"
-            android:noHistory="true"
-            android:screenOrientation="portrait" />
+            android:noHistory="true" />
         <activity
-            android:name=".activity.GameModeActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activity.GameModeActivity" />
         <activity
-            android:name=".activity.SettingsActivity"
-            android:screenOrientation="portrait" />
+            android:name=".activity.SettingsActivity" />
         <activity
             android:name=".activity.MainActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".activity.SplashActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/SplashScreenTheme">
+            android:screenOrientation="fullSensor"
+            android:theme="@style/SplashScreenTheme"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -65,21 +60,9 @@
         <activity
             android:name="com.startapp.sdk.ads.list3d.List3DActivity"
             android:theme="@android:style/Theme" />
-        <activity
-            android:name="com.startapp.sdk.adsbase.activities.OverlayActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.startapp.sdk.adsbase.activities.FullScreenActivity"
-            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
-            android:theme="@android:style/Theme" />
 
-        <service android:name="com.startapp.sdk.adsbase.InfoEventService" />
-        <service
-            android:name="com.startapp.sdk.adsbase.PeriodicJobService"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <receiver android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener">
+        <receiver android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
